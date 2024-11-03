@@ -1,0 +1,47 @@
+/* src/styles/Navbar.css */
+
+.navbar {
+  background-color: #021C1E; /* Color de fondo */
+  padding: 10px;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-around; /* Espaciado uniforme entre los elementos */
+  list-style: none; /* Quitar las viñetas */
+  margin: 0; /* Quitar márgenes */
+  padding: 0; /* Quitar relleno */
+}
+
+.navbar-list li {
+  flex: 1; /* Cada ítem ocupará igual espacio */
+}
+
+.navbar-list a {
+  color: #F5F5F5; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: block; /* Para que el área de clic sea más grande */
+  text-align: center; /* Centrar texto */
+  padding: 10px 0; /* Relleno vertical */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.navbar-list a:hover {
+  background-color: #004445; /* Color de fondo en hover */
+}
+
+/* Media Query para dispositivos pequeños */
+@media (max-width: 768px) {
+  .navbar-list {
+    flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    align-items: center; /* Centrar los ítems */
+  }
+
+  .navbar-list li {
+    width: 100%; /* Hacer que cada ítem ocupe el 100% */
+  }
+
+  .navbar-list a {
+    padding: 15px; /* Relleno más grande en móvil */
+  }
+}

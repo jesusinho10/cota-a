@@ -1,0 +1,86 @@
+/* src/styles/Generalidades.css */
+
+.generalidades-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    color: #021C1E;
+  }
+  
+  /* Estilos para el menú lateral */
+  .sidebar-menu {
+    width: 250px;
+    padding: 20px;
+    background-color: #004445;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  
+  .sidebar-menu h2 {
+    margin-bottom: 15px;
+    color: #6FB98F;
+  }
+  
+  .sidebar-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    margin: 10px 0;
+  }
+  
+  .sidebar-menu button {
+    background: none;
+    border: none;
+    color: #6FB98F;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .sidebar-menu button:hover {
+    color: #2C7873;
+  }
+  
+  /* Estilos para la sección de contenido */
+  .content-section {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #E6F2F1;
+  }
+  
+  .content-section section {
+    margin-bottom: 40px;
+  }
+  
+  .content-section h3 {
+    color: #004445;
+    border-bottom: 2px solid #2C7873;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .content-section p {
+    color: #021C1E;
+  }
+  
+  /* Media query para dispositivos pequeños */
+  @media (max-width: 768px) {
+    .generalidades-container {
+      flex-direction: column;
+    }
+  
+    .sidebar-menu {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    .content-section {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,62 @@
+/* src/styles/Biblioteca.css */
+
+.biblioteca-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #021C1E;
+  }
+  
+  .biblioteca-container h2 {
+    color: #004445;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .biblioteca-container p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .referencias {
+    margin-top: 20px;
+  }
+  
+  .referencias h3 {
+    color: #004445;
+    margin-bottom: 10px;
+  }
+  
+  .referencias ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .referencias li {
+    margin-bottom: 5px;
+    color: #2C7873;
+  }
+  
+  /* Media Query para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .biblioteca-container {
+      padding: 15px;
+    }
+  
+    .biblioteca-container h2 {
+      font-size: 1.5em;
+    }
+  
+    .biblioteca-container p {
+      font-size: 0.9em;
+    }
+  
+    .referencias h3 {
+      font-size: 1.2em;
+    }
+  }
+  

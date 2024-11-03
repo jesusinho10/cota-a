@@ -1,0 +1,31 @@
+/* src/styles/DisenoObjetos.css */
+
+.diseno-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #021C1E;
+  }
+  
+  .diseno-container h2 {
+    color: #004445;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

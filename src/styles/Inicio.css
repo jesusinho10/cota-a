@@ -1,0 +1,42 @@
+/* Estilos para la página de Inicio */
+.inicio-container {
+  background-color: #004445; /* cadet blue */
+  color: #6FB98F; /* greenery */
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio-header h1 {
+  color: #6FB98F; /* greenery */
+}
+
+.inicio-header p {
+  color: #2C7873; /* rain */
+}
+
+/* Contenedor para las imágenes */
+.inicio-images {
+  display: flex;
+  flex-wrap: wrap; /* Para hacerlo responsivo */
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.inicio-images img {
+  width: 45%;
+  height: auto;
+  border: 2px solid #6FB98F; /* greenery */
+  border-radius: 5px;
+}
+
+/* Hacer que las imágenes se ajusten mejor en pantallas pequeñas */
+@media (max-width: 99608px) {
+  .inicio-images img {
+    width: 100%; /* Ajusta a casi todo el ancho del contenedor */
+  }
+}
